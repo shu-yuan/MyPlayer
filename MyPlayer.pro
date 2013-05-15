@@ -14,9 +14,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mywidget.cpp
+        mywidget.cpp \
+    myplaylist.cpp
 
-HEADERS  += mywidget.h
+HEADERS  += mywidget.h \
+    myplaylist.h
 
 RESOURCES += \
     pics.qrc
