@@ -1,4 +1,4 @@
-#include "mywidget.h"
+﻿#include "mywidget.h"
 #include <QApplication>
 #include <QTextCodec>
 
@@ -11,6 +11,8 @@ int main(int argc, char *argv[])
     QTextCodec::setCodecForLocale(QTextCodec::codecForName("GB2312"));
     QTextCodec::setCodecForCStrings(QTextCodec::codecForName("GB2312"));
 
+
+    qDebug() << "hello qt";
     MyWidget w;
     w.show();
     
